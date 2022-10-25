@@ -4,6 +4,7 @@
 * jack_bauer - prints every minute of the day
 *
 * Return: the minutes of the day
+*/
 
 void jack_bauer(void)
 {
