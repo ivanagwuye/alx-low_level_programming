@@ -6,7 +6,7 @@
 *
 * @n: character to be checked
 *
-*
+*/
 
 void print_diagonal(int n)
 {
