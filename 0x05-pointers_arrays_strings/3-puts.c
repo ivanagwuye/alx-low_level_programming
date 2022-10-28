@@ -1,17 +1,20 @@
 #include "main.h"
 
 /**
-* _puts - a function that prints a string, followed by a new line, to stdout
-*
-* @str: the string to be checked
-*/
+ * _strlen - returns the length of a string
+ * @s: string
+ * Return: length
+ */
 
-void _puts(char *str)
+int _strlen(char *s)
 {
-	while (*str != '\0')
+	int len = 0;
+
+	while (*s != '\0')
 	{
-		putchar(*str);
-		str++;
+		len++;
+		s++;
 	}
-	putchar('\n');
+
+	return (len);
 }
