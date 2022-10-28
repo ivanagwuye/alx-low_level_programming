@@ -11,13 +11,13 @@ void print_number(int n)
 	double t_beg = 1;
 
 	if (n == 0)
-		_putchar('0');
+		putchar('0');
 	else
 	{
 		if (n < 0)
 		{
 			positive = n * -1;
-			_putchar('-');
+			putchar('-');
 		}
 
 		while (t_beg <= positive)
@@ -27,7 +27,7 @@ void print_number(int n)
 		while (tens >= 1)
 		{
 			digit = positive / tens;
-			_putchar(digit + '0');
+			putchar(digit + '0');
 			positive = (positive - (tens * digit));
 			tens /= 10;
 		}
