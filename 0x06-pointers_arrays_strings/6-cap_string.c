@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main1.h"
 
 /**
  * cap_string - capitalize first letter of each word
