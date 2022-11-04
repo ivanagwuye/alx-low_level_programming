@@ -1,18 +1,17 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
-* main - prints the program
-* @argc: argument to be counted
-* @argv: argument vector
-* Return - Always 0 (success)
+ * main - print number of arguments passed to program
+ * @argc: argument counter
+ * @argv: pointer to array of arguments
+ * Return: 0 on success
+ */
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-	int i;
-
-	for (i = 1; i < argc; i++)
-		printf("argv[%d] = %s\n", i, argv[i]);
+	if (argc > 0)
+		printf("%d\n", argc - 1);
 
 	return (0);
 }
