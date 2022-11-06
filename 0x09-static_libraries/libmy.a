@@ -1,2 +1,2 @@
 #!/bin/basg
-ar rc libmy.a *.o
+ar rc libmy.a main.h
