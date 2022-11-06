@@ -1,1 +1,2 @@
+#!/bin/basg
 ar rc libmy.a *.o
